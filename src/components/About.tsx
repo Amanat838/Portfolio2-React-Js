@@ -18,18 +18,18 @@ const About = () => {
           className="w-full lg:w-2/3 text-base text-textDark font-bodyFont flex flex-col gap-6"
         >
           <p>
-            Hello! My name is Noor Mohammad, and I’m passionate about crafting
+            Hello! My name is Syed Amanat Ali, and I’m passionate about crafting
             exceptional web experiences. My journey in web development began in
-            2012 when I started experimenting with custom Tumblr themes, where
-            building a custom reblog button sparked my love for HTML and CSS.
+            2018 when I started building HTML pages and along the process I realized that I love it because I had total control over what to make and in that way I saw a opportunity in expressing my creativity.
           </p>
           <p>
-            Today, I’ve had the privilege of working at an{" "}
+            Today, I’ve had the privilege of working at a <a href="https://www.devsinc.com/" className="text-textGreen">Major Company</a>, <a className="text-textGreen" href="https://codeupscale.com/">A startup</a>, <a className="text-textGreen" href="https://www.skyelectric.com/">Another major corporation.</a> 
+            {/* {" "}
             <span className="text-textGreen">
               advertising agency, a startup, a major corporation, and a
               student-led design studio.
-            </span>{" "}
-            My diverse experiences have honed my skills in creating
+            </span>{" "} */}
+            &nbsp;My diverse experiences have honed my skills in creating
             user-friendly, scalable, and visually appealing applications. I
             thrive on solving complex problems and bringing ideas to life on the
             internet.
@@ -51,6 +51,8 @@ const About = () => {
               "TypeScript",
               "Express.js",
               "MongoDB",
+              "Vue Js",
+              "Angular",
               "Tailwind CSS",
             ].map((tech, index) => (
               <motion.li
@@ -78,7 +80,7 @@ const About = () => {
           <div className="absolute w-full h-80 rounded-lg overflow-hidden shadow-navbarShadow">
             <img
               className="w-full h-full object-cover rounded-lg transition-transform duration-300 group-hover:scale-105"
-              src={"/assets/images/profile.png"}
+              src={"/assets/images/profile.jpg"}
               alt="Profile Image"
             />
             <div className="absolute inset-0 bg-textGreen/20 rounded-lg transition-opacity duration-300 group-hover:opacity-0"></div>

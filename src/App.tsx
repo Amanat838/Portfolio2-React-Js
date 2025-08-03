@@ -29,7 +29,7 @@ function App() {
           <About />
           <Experience />
           <Projects />
-          <Archive />
+          {/* <Archive /> */}
           <Contact />
           <Footer />
         </Container>

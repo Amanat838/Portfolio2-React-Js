@@ -52,7 +52,7 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.1 }}
           >
-            <img className="w-14" src={"/assets/images/logo.png"} alt="logo" />
+            <img className="w-14 h-18 mt-6" src={"/assets/images/logo2.png"} alt="logo" />
           </motion.div>
         </a>
         {/* ============ Logo End here ============== */}
@@ -129,7 +129,7 @@ const Navbar = () => {
               </motion.li>
             </a>
           </ul>
-          <a href="/assets/noor_resume.pdf" target="_blank">
+          <a href="/assets/Amanat_Resume.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}

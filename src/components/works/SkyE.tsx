@@ -1,6 +1,7 @@
 import { TiArrowForward } from "react-icons/ti";
 import { motion } from "framer-motion";
-const Google = () => {
+
+const SkyE = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -9,40 +10,45 @@ const Google = () => {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Web Developer
-        <span className="text-textGreen tracking-wide">@Google</span>
+        MERN Stack Developer Intern
+        <span className="text-textGreen tracking-wide">@SkyElectric</span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
-        Jan 2022 - Dec 2023
+        Jan 2020 - Dec 2020
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-          distinctio doloribus quas ex ea sed.
+          Assisted in developing and deploying full-stack web applications using
+          MongoDB, Express.js, React.js, and Node.js, contributing to scalable
+          project architecture.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
-          sit adipisci ad exercitationem a amet cum porro recusandae eveniet,
-          accusantium animi tenetur rerum, culpa quibusdam! Consectetur
-          laboriosam hic harum modi.
+          Designed and integrated RESTful APIs to enable seamless communication
+          between frontend and backend services.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <TiArrowForward />
           </span>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam et
-          corporis necessitatibus? Pariatur voluptas ad, at et hic deserunt
-          sequi?
+          Collaborated with senior developers to implement secure authentication
+          and authorization using JWT and middleware.
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <TiArrowForward />
+          </span>
+          Participated in code reviews, bug fixing, and feature enhancements,
+          improving overall system efficiency and user experience.
         </li>
       </ul>
     </motion.div>
   );
 };
 
-export default Google;
+export default SkyE;
